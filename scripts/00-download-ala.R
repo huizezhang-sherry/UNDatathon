@@ -18,9 +18,7 @@ koala <- koala %>%
     day = ymd(as.Date(eventDate))
   )
 
-
 # Renaming column
-
 koala <- koala %>%
   rename("LAT" = "decimalLatitude",
          "LON" = "decimalLongitude")
