@@ -22,8 +22,9 @@ koala <- koala %>%
 # Renaming column
 
 koala <- koala %>%
-  rename("decimalLatitude" = "LAT",
-         "decimalLongitude" = "LON")
+  rename("LAT" = "decimalLatitude",
+         "LON" = "decimalLongitude")
 
-# Reordering by year
-koala <- koala[, order(koala$year)]
+# Removing entries with NA in year
+koala <- koala %>% drop_na(year)
+koala <- koala[order(koala$year),]
