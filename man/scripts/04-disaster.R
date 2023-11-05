@@ -3,8 +3,7 @@ library(absmapsdata)
 library(tidyverse)
 library(sf)
 library(vegan)
-postcode_raw <- strayr::read_absmap("postcode2021")
-postcode <- postcode_raw |> rmapshaper::ms_simplify(keep = 0.01)
+
 st_write(postcode, dsn = here::here("data/postcode/postcode.shp"))
 
 disaster_raw <- readxl::read_xlsx(
@@ -28,27 +27,27 @@ perth_region |>
   geom_sf()
 
 qld_bushfire <- disaster |>
-  filter(CAT_Event_Name == "2019/20 Bushfires (NSW,QLD,SA,VIC)") |>
-  filter(between(Postcode, 1000, 2599))
+  filter(cat_event_name == "2019/20 Bushfires (NSW,QLD,SA,VIC)") |>
+  filter(between(postcode, 1000, 2599))
 
-qld_bushfire_rg <- postcode_raw |> filter(postcode_2021 %in% qld_bushfire$Postcode) |>
+qld_bushfire_rg <- aus_postcode |> filter(postcode_2021 %in% qld_bushfire$postcode) |>
   filter(cent_lat > -33.8)
 
 
 library(galah)
-poly <- qld_bushfire_rg$geometry |> sf::st_union() |> sf::st_bbox() |> sf::st_as_sfc()
+poly <- qld_bushfire_rg$geometry[[1]] |> sf::st_union() |> sf::st_bbox() |> sf::st_as_sfc()
 poly <- bushfire_big2[1, ] |> rmapshaper::ms_simplify(keep = 0.1)
 # poly <-  bioregion_koala |>
 #   filter(OBJECTID < 300) |>
 #   sf::st_union() |>
 #   rmapshaper::ms_simplify(keep = 0.05)
 perth_ala <- galah_call() |>
-  galah_filter(year >= 2015, year <= 2020 ) |>
+  galah_filter() |>
   galah_polygon(poly) |>
   atlas_occurrences()
 
 perth_species <- galah_call() |>
-  galah_filter(year >= 2015, year <= 2020 ) |>
+  galah_filter(year >= 2019, year <= 2020 ) |>
   galah_polygon(poly) |>
   atlas_species()
 
