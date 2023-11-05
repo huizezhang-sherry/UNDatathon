@@ -17,6 +17,7 @@ bioregion_raw <- read_sf(path) |>
 
 bioregion <- bioregion_raw |> rmapshaper::ms_simplify(keep = 0.1)
 save(bioregion, file = here::here("data", "bioregion.rda"))
+st_write(bioregion, dsn = here::here("data/bioregion/bioregion.shp"))
 
 bioregion |>
   ggplot() +
