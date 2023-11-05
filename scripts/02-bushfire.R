@@ -13,6 +13,7 @@ bushfire <- bushfire_raw |>
   filter(between(ignition_d, ymd("2019-11-01"), ymd("2020-3-01"))) |>
   arrange(ignition_d)
 save(bushfire, file = here::here("data", "bushfire.rda"))
+st_write(bushfire, dsn = here::here("data/bushfire/bushfire.shp"))
 
 bushfire |> ggplot() + geom_sf()
 
