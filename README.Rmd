@@ -26,7 +26,7 @@ Team members:
   * key transition: climate change, biodiversity loss and pollution
   * Sustainable Development Goal 15: Life on land
     
-    * The UN has defined 12 Targets and 14 Indicators for SDG 15, the most relevant one is **Target 15.5: Protect biodiversity and natural habitats**, which states *Take urgent and significant action to reduce the degradation of natural habitats, halt the loss of biodiversity and, by 2020, protect and prevent the extinction of threatened species.* 
+  * The UN has defined 12 Targets and 14 Indicators for SDG 15; the most relevant one is SDG 15.5 - Protect biodiversity and natural habitats. 15.5 addresses protecting biodiversity and natural habitats. Take urgent and significant action to reduce the degradation of natural habitats, halt the loss of biodiversity and, by 2020, protect and prevent the extinction of threatened species.
 
 
 ## References: 
