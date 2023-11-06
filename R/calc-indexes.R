@@ -1,13 +1,18 @@
 #' Calculate indexes from the biodiversity data
 #'
-#' The function calculates biodiversity indexes (Simpson's Diversity Index, Shannon Diversity Index, and Clarke & Warwick's Distinctness and Diversity Index) from the animal data queried from the [Atlas of Living Australia] \url{https://www.ala.org.au/}.
+#' The function calculates biodiversity indexes (Simpson's Diversity Index,
+#' Shannon Diversity Index, and Clarke & Warwick's Distinctness and Diversity
+#' Index) from the animal data queried from the Atlas of Living Australia
 #'
-#' @param data A {.field galah_res} object from {.code query_species()}.
-#' @param occurrence A dataframe of animal occurrence data, which can be individual occurrence count or occurrence count per species.
+#' @param data A \code{galah_res} object from  \code{query_species()}.
+#' @param occurrence A dataframe of animal occurrence data, which can be
+#'  individual occurrence count or occurrence count per species.
 #' @param taxonomy A dataframe of animal taxonmy data.
-#' @param is_count Indicator whether the animal occurrence data is recorded as occurrence count per species.
+#' @param is_count Indicator whether the animal occurrence data is recorded
+#'  as occurrence count per species.
 #' @param indexes The index(es) to compute: "shannon", "simpson" or "CW".
 #' @export
+#' @references https://www.ala.org.au/
 #' @examples
 #' \dontrun{
 #' library(dplyr)

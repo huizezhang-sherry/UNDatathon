@@ -2,20 +2,19 @@
 % Please edit documentation in R/plot-idx.R
 \name{autoplot}
 \alias{autoplot}
-\title{Autoplot function for calculated indexes}
+\title{Plot calculated indexes}
 \usage{
 autoplot(data, time = NULL, site = NULL)
 }
 \arguments{
 \item{data}{A {.field idx_res} object from {.code calculate_idx()}.}
 
-\item{time}{the time variable in the data, support non-standard evaluation}
+\item{time}{The time period of interest in the calculation.}
 
-\item{site}{the time variable in the data, support non-standard evaluation}
+\item{site}{The site location of interest in the calculation.}
 }
 \description{
-The function creates a line plot of the indexes calculated from
-\code{calculate_idx()}
+The function creates a line plot of the indexes calculated from \code{calculate_idx()}.
 }
 \examples{
 \dontrun{

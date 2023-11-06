@@ -7,15 +7,13 @@
 query_species(shape, year_vec = c(2019, 2020))
 }
 \arguments{
-\item{shape}{an sfc object}
+\item{shape}{An sfc object.}
 
-\item{year_vec}{a vector of years}
+\item{year_vec}{A vector of years.}
 }
 \description{
-The function queries species from the Atlas of Living Australia ...
-}
-\details{
-instruction on need to config with email
+The function queries species from the Atlas of Living Australia in a given
+time period. The function requires a registered email from the website.
 }
 \examples{
 \dontrun{

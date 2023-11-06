@@ -3,10 +3,10 @@ Title: Geospatial multivariate data analysis pipeline for biodiversity and disas
 Version: 0.0.1
 Authors@R: c(
     person("Sherry", "Zhang", email = "huizezhangsh@gmail.com", role = c("aut", "cre")),
-    person("Roben", "Delos Reyes", email = "rdelosreyes@student.unimelb.edu.au", role = "aut",)
+    person("Roben", "Delos Reyes", email = "rdelosreyes@student.unimelb.edu.au", role = "aut",),
     person("Bernadette", "Hyland-Wood", email = "b.hylandwood@qut.edu.au", role = "aut"),
     person("John", "Lyons", email = "j8.lyons@hdr.qut.edu.au", role = "aut",),
-    person("Alex", "Qin", email = "alex.qin@sydney.edu.au", role = "aut"),
+    person("Alex", "Qin", email = "alex.qin@sydney.edu.au", role = "aut")
   )
 Description: This package offers a pipeline that locates areas affected by natural disasters, extracts shape files associated to those areas, queries animal occurences in those areas from the Atlas of Living Australia, compute biodiversity indexes before and after the disaster, and plots the results.
 License: MIT + file LICENSE

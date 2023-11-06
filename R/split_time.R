@@ -25,3 +25,5 @@ split_time <- function(data, window = 3){
 
   return(occur)
 }
+
+globalVariables(c("ym"))

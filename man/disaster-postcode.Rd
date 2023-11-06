@@ -4,7 +4,7 @@
 \name{disaster}
 \alias{disaster}
 \alias{test_ala}
-\title{Disaster and postcode data}
+\title{Disaster data with postcode information}
 \format{
 An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 6161 rows and 24 columns.
 
@@ -16,17 +16,13 @@ disaster
 test_ala
 }
 \description{
-This dataset contains the postcode and disaster data used in ...
+This is the dataset of disasters which comes from Insurance Council of
+Australia.  Disaster data without postcode information are removed.
+The shape files of postcodes come from the Australian Bureau of Statistics
 
 This dataset contains the occurrence and taxonomy data used in ...
 }
 \details{
-Disaster data comes from \link{organisation name}
-\url{https://insurancecouncil.com.au/industry-members/data-hub/}. Disaster
-without postcode information is removed.
-
-The postcode data comes from ABS ...
-
 \describe{
 \item{column name}{description}
 \item{column name}{description}
@@ -44,5 +40,8 @@ The postcode data comes from ABS ...
 \item{column name}{description}
 \item{column name}{description}
 }
+}
+\references{
+https://insurancecouncil.com.au/industry-members/data-hub/
 }
 \keyword{datasets}

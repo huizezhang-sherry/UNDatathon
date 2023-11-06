@@ -1,17 +1,31 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# UNDatathon
+# Disaster & Diversity <img src="man/figures/logo.jpeg" align="right" alt="" />
 
 ![](https://unstats.un.org/bigdata/events/2023/un-datathon/banner.jpg)
 
 ## Methods
 
-![](man/figures/workflow.jpg)
+We create a data pipeline to compute biodiversity indexes (Shannon Index
+and Simpson Index) for historical bushfire regions in Australia. The
+pipeline includes functionalities to:
+
+- Find the shape file for the postcode in the disaster data:
+  `disaster_as_shape()`
+- Query species from the Atlas of Living Australia: `query_species()`
+- Split the occurrence data by year and month: `split_time()`
+- Calculate indexes from the biodiversity data: `calculate_idx()`
+- Plot calculated indexes: `autoplot()`
 
 ## Results
 
-![](man/figures/index-changes.png)
+From the historical bushfire regions, we find two types of changes in
+biodiversity indexes before and after the bushfire events, where some
+regions the Shannon index changes from 6 to less than 4.5 and the
+Simpsons index changes from 0.99 to less than 0.9.
+
+![](man/figures/bushfire-regions.png) ![](man/figures/index-changes.png)
 
 Team members:
 

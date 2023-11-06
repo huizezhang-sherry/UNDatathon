@@ -2,17 +2,17 @@
 % Please edit documentation in R/split_time.R
 \name{split_time}
 \alias{split_time}
-\title{Split the occurrence data by month}
+\title{Split the occurrence data by year and month}
 \usage{
 split_time(data, window = 3)
 }
 \arguments{
-\item{data}{a {.field galah_res} object from {.code query_species}}
+\item{data}{A {.field galah_res} object from {.code query_species}.}
 
-\item{window}{the time window to split the data}
+\item{window}{The time window to split the data.}
 }
 \description{
-Split the occurrence data by month
+The function splits the occurence data by year and month.
 }
 \examples{
 res <- test_ala |> split_time()

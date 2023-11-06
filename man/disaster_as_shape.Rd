@@ -2,20 +2,20 @@
 % Please edit documentation in R/disaster-as-shape.R
 \name{disaster_as_shape}
 \alias{disaster_as_shape}
-\title{Find the shapefile for the postcode in the disaster data}
+\title{Find the shape file for the postcode in the disaster data}
 \usage{
 disaster_as_shape(disaster_df, postcode = "postcode", as_sfc = FALSE)
 }
 \arguments{
-\item{disaster_df}{A dataframe containing the disaster data}
+\item{disaster_df}{A dataframe containing the disaster data.}
 
-\item{postcode}{The column name of the postcode in the disaster data}
+\item{postcode}{The column name of the postcode in the disaster data.}
 
-\item{as_sfc}{Whether to return a simple feature column (sfc) object
-(with default as TRUE) or a simple feature (sf) object}
+\item{as_sfc}{Whether to return a simple feature column (sfc) object.
+(with default as TRUE) or a simple feature (sf) object.}
 }
 \description{
-Find the shapefile for the postcode in the disaster data
+The function extracts the shape file of the postcodes in the disaster data.
 }
 \examples{
 \dontrun{

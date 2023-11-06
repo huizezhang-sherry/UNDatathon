@@ -13,22 +13,22 @@ calculate_idx(
 )
 }
 \arguments{
-\item{data}{A {.field galah_res} object from {.code query_species()}.}
+\item{data}{A \code{galah_res} object from  \code{query_species()}.}
 
-\item{occurrence, }{required if data is not supplied. A data frame of
-occurrence data. Can be counts or observation}
+\item{occurrence}{A dataframe of animal occurrence data, which can be
+individual occurrence count or occurrence count per species.}
 
-\item{taxonomy, }{required for CW indexes are and if data is not supplied .
-A data frame of taxonomy data.}
+\item{taxonomy}{A dataframe of animal taxonmy data.}
 
-\item{is_count}{whether the occurrence data is count data or observation data.}
+\item{is_count}{Indicator whether the animal occurrence data is recorded
+as occurrence count per species.}
 
-\item{indexes}{the indexes to compute: shannon, simpson or CW indexes.}
+\item{indexes}{The index(es) to compute: "shannon", "simpson" or "CW".}
 }
 \description{
-The function calculates biodiversity indexes (Shannon, Simpson, and
-Clarke & Warwick's  diversity and distinctness) from the occurrence and
-taxonomy data.
+The function calculates biodiversity indexes (Simpson's Diversity Index,
+Shannon Diversity Index, and Clarke & Warwick's Distinctness and Diversity
+Index) from the animal data queried from the Atlas of Living Australia
 }
 \examples{
 \dontrun{
@@ -38,4 +38,7 @@ d <- disaster |> filter(cat_name == "CAT131") |> disaster_as_shape()
 s <- query_species(d[1,])
 s |> calculate_idx()
 }
+}
+\references{
+https://www.ala.org.au/
 }
