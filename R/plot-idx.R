@@ -4,8 +4,8 @@
 #' \code{calculate_idx()}
 #'
 #' @param data A {.field idx_res} object from {.code calculate_idx()}.
-#' @param time the time variable in the data, support non-standard evaluation
-#' @param site the time variable in the data, support non-standard evaluation
+#' @param time The time variable in the data, support non-standard evaluation
+#' @param site The time variable in the data, support non-standard evaluation
 #' @export
 #' @examples
 #' \dontrun{
