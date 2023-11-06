@@ -1,7 +1,9 @@
-#' Split the occurrence data by month
+#' Split the occurrence data by year and month
 #'
-#' @param data a {.field galah_res} object from {.code query_species}
-#' @param window the time window to split the data
+#' The function splits the occurence data by year and month.
+#'
+#' @param data A {.field galah_res} object from {.code query_species}.
+#' @param window The time window to split the data.
 #' @export
 #' @examples
 #' res <- test_ala |> split_time()

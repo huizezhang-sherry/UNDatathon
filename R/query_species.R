@@ -1,9 +1,9 @@
 #' Query species from the Atlas of Living Australia
 #'
-#' The function queries species from the Atlas of Living Australia website. The function requires a registered email from the website.
+#' The function queries species from the [Atlas of Living Australia] \url{https://www.ala.org.au/} in a given time period. The function requires a registered email from the website.
 #'
-#' @param shape An sfc object
-#' @param year_vec A vector of years
+#' @param shape An sfc object.
+#' @param year_vec A vector of years.
 #' @export
 #' @examples
 #' \dontrun{

@@ -1,12 +1,6 @@
-#' Disaster and postcode data
+#' Disaster data with postcode information
 #'
-#' This dataset contains the postcode and disaster data used in ...
-#'
-#' Disaster data comes from [organisation name]
-#' \url{https://insurancecouncil.com.au/industry-members/data-hub/}. Disaster
-#' without postcode information is removed.
-#'
-#' The postcode data comes from ABS ...
+#' This is the dataset of disasters which comes from [Insurance Council of Australia] \url{https://insurancecouncil.com.au/industry-members/data-hub/}. Disaster data without postcode information are removed. The shape files of postcodes come from the [Australian Bureau of Statistics] \url{https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/non-abs-structures/postal-areas}.
 #'
 #' @details
 #' \describe{

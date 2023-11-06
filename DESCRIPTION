@@ -1,5 +1,5 @@
 Package: UNDatathon
-Title: Geospatial multivarate data analysis pipeline for biodiversity and disaster management
+Title: Geospatial multivariate data analysis pipeline for biodiversity and disaster management
 Version: 0.0.1
 Authors@R:
     person("Bernadette", "Hyland-Wood", "b.hylandwood@qut.edu.au", role = c("aut", "cre")),
@@ -7,7 +7,7 @@ Authors@R:
     person("Sherry", "Zhang", "huizezhangsh@gmail.com", role = c("aut", "cre")),
     person("John", "Lyons", "j8.lyons@hdr.qut.edu.au", role = c("aut", "cre")),
     person("Roben", "Delos Reyes", "rdelosreyes@student.unimelb.edu.au", role = c("aut", "cre"))
-Description: This package offers a pipeline that locates area from natural disaster data, extracts shape files from natural disaster datasets, query species from the Atlast of Living Australia, compute biodiversity indices, and create visual plots using geospatial multivariate data.
+Description: This package offers a pipeline that locates areas affected by natural disasters, extracts shape files associated to those areas, queries animal occurences in those areas from the Atlas of Living Australia, compute biodiversity indexes before and after the disaster, and plots the results.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

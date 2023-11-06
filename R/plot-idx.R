@@ -1,11 +1,10 @@
-#' Autoplot function for calculated indexes
+#' Plot calculated indexes
 #'
-#' The function creates a line plot of the indexes calculated from
-#' \code{calculate_idx()}
+#' The function creates a line plot of the indexes calculated from \code{calculate_idx()}.
 #'
 #' @param data A {.field idx_res} object from {.code calculate_idx()}.
-#' @param time The time variable in the data, support non-standard evaluation
-#' @param site The time variable in the data, support non-standard evaluation
+#' @param time The time period of interest in the calculation.
+#' @param site The site location of interest in the calculation.
 #' @export
 #' @examples
 #' \dontrun{
