@@ -15,15 +15,6 @@
 #' query_species(d[1,])
 #' }
 query_species <- function(shape, year_vec = c(2019, 2020)){
-
-  shape_size <- sf::st_coordinates(shape) |> nrow()
-
-  if (shape_size >= 500){
-    cli::cli_warn(
-    "The shapefile is too large.
-    Please simplify the object with {.code rmapshaper::ms_simplify()}.")
-  }
-
   if (inherits(shape, "sf")) shape <- shape |> sf::st_as_sfc()
   if (!inherits(shape, "sfc")){
     cli::cli_abort("Please convert shape object to an sfc object.")
@@ -40,19 +31,21 @@ query_species <- function(shape, year_vec = c(2019, 2020)){
     galah::galah_polygon(shape) |>
     galah::atlas_occurrences()
 
-  res_species_raw <- galah_call() |>
+  res_taxonomy_raw <- galah_call() |>
     galah::galah_filter(year == year_vec ) |>
     galah::galah_polygon(shape) |>
     galah::atlas_species()
 
-  res_species <- res_species_raw |>
+  res_taxonomy <- res_taxonomy_raw |>
     dplyr::select(class:species) |>
     dplyr::filter(!is.na(class)) |>
     dplyr::filter(!is.na(order)) |>
     dplyr::filter(!is.na(genus)) |>
     dplyr::filter(!is.na(family))
 
-  list(occurrence = res_occur, species = res_species)
+  res <- list(occurrence = res_occur, taxonomy = res_taxonomy)
+  class(res) <- c("galah_res", "list")
+  return(res)
 }
 
 globalVariables(c("class", "order", "genus", "family", "galah_call",

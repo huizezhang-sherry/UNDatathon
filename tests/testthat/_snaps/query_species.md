@@ -26,7 +26,7 @@
       # i 4 more variables: taxonConceptID <chr>, recordID <chr>,
       #   dataResourceName <chr>, occurrenceStatus <chr>
       
-      $species
+      $taxonomy
       # A tibble: 785 x 5
          class order          family       genus        species                       
          <chr> <chr>          <chr>        <chr>        <chr>                         
@@ -42,4 +42,6 @@
       10 Aves  Passeriformes  Acanthizidae Acanthiza    Acanthiza (Acanthiza) pusilla 
       # i 775 more rows
       
+      attr(,"class")
+      [1] "galah_res" "list"     
 
