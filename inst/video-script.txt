@@ -1,72 +1,68 @@
-2023 UN Datathon
+Script
+[Slide: Title]
 
-Project title: Australian Ecosystem Resilience: Analysing biodiversity and disaster impact using open data
- 
-Team name: Awesome Possums
+[Slide] Accelerate progress towards the United Nations Sustainable Development Goals. 
 
-[Slide: Title, then B-roll]
+The urgent and existential risks of the global ‘climate catastrophe’, according to Antonio Guterres, has dealt ‘a major blow to the UN SDGs implementation efforts' 
 
-While we have never had more access to digital information and platforms, yet without increased commitment, collaboration and action. 
-
-UN Secretary General António Guterres has stated that the world is at risk of missing headline targets of the 2030 Agenda to end poverty, reduce inequality and protect our environment. 
-
-The urgent and existential risks of the global ‘climate catastrophe’, according to Guterres, has dealt ‘a major blow to the UN SDGs implementation efforts. 
-
-So our team of 5 PhD students and early career researchers decided to do our part to address the 2023 UN Datathon theme — Accelerate progress towards the United Nations Sustainable Development Goals. 
+[Slide: Map of Australia & bushfire image]
 
 We examined the impact on biodiversity of a major natural disaster that received international attention — the 2019–20 Australian bushfire season or Black Summer event.
 
-In a recent report by the World Wildlife Foundation, nearly 3 billion Australian animals – mammals, birds, reptiles and frogs – were impacted by Australia’s 2019/20 bushfires.
+Australia is the flattest, driest continent in the world. 
 
-It is estimated that tens of millions of possums and gliders, and other insectivorous marsupials were harmed. 
+Australian bushfires represent some of the most intense and catastrophic fire seasons on record. 
 
-5 million kangaroos and wallabies; 1.1 million wombats; and 114,000 echidnas were impacted; more than 60,000 koalas killed, injured or affected in some way.
+Australia’s October 2023 rainfall was 65% below the 1961–1990 average. We are having the fifth-driest on record for October since the national dataset began in 1900, and the driest since 2002.
 
-These figures stunned the world and confirmed that Australia’s bushfires were one of the worst wildlife disasters in modern history.
+How we respond to natural disasters is considered an indicator, for better or worse, for many around the world. 
 
-Australia is the flattest, driest continent in the world. How we respond to natural disasters is considered an indicator, for better or worse, for many countries around the world. 
-
-[Slide - Australian Data Science Network + uni logos of Monash, Uni Sydney, Uni Melbourne, QUT]
-
-We came together for the 2023 UN Datathon to accelerate progress towards the United Nations Sustainable Development Goals (SDGs). 
-
-[Slide: Team members/headshots/names]
+High-quality, data-driven research supports policies and legislation for ecosystem and biodiversity preservation. 
 
 We come from five countries. 
 
-Our team of PhD students and early career researchers have real world and applied research experience in data science, policy and governance, and Indigenous perspectives. 
+Our team of PhD students and early career researchers have real-world and applied research expertise in data science, bioinformatics, data policy and governance, and Indigenous perspectives. 
+
+Hi, I’m Dr Sherry Zhang from Monash University and I work on developing software to analyze multivariate spatio-temporal data. 
+
+Hi, I’m Alex Qin, a research assistant at the Sydney Precision Data Science Centre at the University of Sydney. My primary field of research is in bioinformatics, wrangling and extract data-informed conclusions from high dimensionality datasets in biology.
+
+Mabuhay, I’m Roben Delos Reyes and I’m a PhD student at the University of Melbourne doing heath informatics research. 
+
+John Lyons is a PhD student at the Queensland University of Technology and member of the Australian Data Science Network. He is researching regime shifts in Antarctica. 
+
+And I’m Dr Bernadette Hyland-Wood, I’m an early career researcher working on the dynamics of government data supply and national governance practices. I teach digital communication at Queensland University of Technology in Brisbane Australia. 
 
 [Slide: SDG 15 - To protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss.]
 
-Our project aims to address SDG 15. 
-
-We produced a quantitative analysis to support recommendations to achieve targets and indicators for SDG 15.5 - Protect biodiversity and natural habitats. 
-
-By taking urgent and significant action to reduce the degradation of natural habitats, we can halt the loss of biodiversity and protect & prevent the extinction of threatened species. 
-
-This target is informed and guided by the "Red List Index.”
 
 Collaborations by diverse teams with backgrounds in data science, natural and social sciences, are key to achieving the Sustainable Development Goals. 
 
+Our project aims to address SDG 15. 
 
-[Slide: Biodiversity - Biodiversity is the foundation of ecosystems that produce clean air, drinkable water, a healthy climate, medicines, and food.]
+We produced a quantitative analysis to support recommendations to achieve targets and indicators for SDG 15.5
+
+Biodiversity is in crisis. Wild animals and plants are disappearing at rates never before experienced during human existence. 
+
+Scientists predict that one million species are headed for extinction within the coming decades as a result of human activity.
+
+[Slide - SDG 15.5 image - Protect biodiversity and natural habitats]
+
+By taking urgent and significant action to reduce the degradation of natural habitats, we can halt the loss of biodiversity and protect & prevent the extinction of threatened species. 
+
+This work will directly impact government decisions by generating an open data resource for ecological policymakers to reduce the burden of future natural disasters on wildlife.
+
+[Slide: Biodiversity is the foundation of ecosystems that produce clean air, drinkable water, a healthy climate, medicines, and food.]
 
 Biodiversity is the term researchers use to describe the full mix of life on Earth — From the tiniest insects to the tallest trees—and everything in between, including humans and our impacts on the natural world. 
 
 It refers not only to the number of plants, animals, and other organisms, but their variety, which is  significant since each different species has an important part to play in the larger whole. 
 
-Biodiversity is in crisis according to the International Fund for Animal Welfare, an international network of experts exploring new ideas to create real solutions.  
+[Slide: Biodiversity indices are valuable tools for decision-making and understanding the complex interactions within ecosystems.]
 
-Wild animals and plants are disappearing at rates never before experienced during human existence. 
+Biodiversity indices are a proxy measure of overall species diversity in a given region, and is an important measure for helping us understand natural barriers against many diseases, including diseases that can turn into pandemics.
 
-Scientists predict that one million species are headed for extinction within the coming decades as a result of human activity.
-
-
-Biodiversity models are valuable tools for decision-making and understanding the complex interactions within ecosystems. 
-
-Measuring biodiversity helps us to understand natural barriers against many diseases, including diseases that can turn into pandemics.
-
-For example, conservationists & environmentalists use biodiversity models to assess the health and trends of ecosystems and species, ultimately to develop strategies to protect and restore biodiversity. 
+For example, conservationists & environmentalists use biodiversity indices to assess the health and trends of ecosystems and species, ultimately to develop strategies to protect and restore biodiversity. 
 
 Government agencies use these models to inform policy decisions, land management and conservation planning. 
 
@@ -78,121 +74,98 @@ They are used by educators, researchers, NGOs and non-profits for environmental 
 
 [Slide: Indigenous fire wardens]
 
-Indigenous peoples often have a deep knowledge of their ecosystems and may use biodiversity models to complement traditional knowledge to complement their efforts to protect and manage their lands. 
+Indigenous peoples often have a deep knowledge of their ecosystems and may use biodiversity models to complement traditional knowledge for their efforts to protect and manage Country and waterways. 
 
 Planners and policy makers are guided by disaster models for assessing immediate and long-term impacts of bushfires, helping to coordinate response efforts, allocate resources, and plan for recovery and reconstruction in a data-driven manner.
 
-[B-roll Australian bushfire]
+[Slide: For many First Nations peoples, data collected on country and waterways is considered sacred & protected knowledge. 
 
 Our project focused on the 2019–20 Australian bushfire season or Black Summer event.
 
-If you’re not with what happened… From September 2019 to March 2020, bushfires heavily impacted various regions of the state of New South Wales. 
+If you’re not familiar with what happened… From September 2019 to March 2020, bushfires heavily impacted various regions of Australia. The most severe fires peaked from December 2019 to January 2020.
 
-The most severe fires peaked from December 2019 to January 2020.
-
-The Australian bushfires were some of the most intense and catastrophic fire seasons on record. 
-
-A massive fire charaterized by its unusual intensity, size, duration, and uncontrollable dimension, were considered a megafire. 
-
-Multiple states of emergency were declared across two states and the Australian Capital Territory. 
-
-[Slide or B-roll First Responders]
-
-The increased frequency and scale of natural disasters have far reaching impacts on first responders — Reinforcements from all over Australia, including the Australian Defence Force, were called in to assist fighting the fires and relieve exhausted local crews. 
-
-Additionally, firefighters, supplies and equipment from Canada, New Zealand, Singapore and the United States, among others, helped fight the fires. 
-
-Natural disasters have incalculable impacts. 
-
-An air tanker and two helicopters crashed during operations, killing three crew members. Two fire trucks were caught in fatal accidents, killing three firefighters. 
-
-A majority of Australians were affected in some way by these bushfires. 
-
-At its peak, air quality dropped to hazardous levels in all southern and eastern states. 
-
-These bushfires caused unprecedented devastation to our terrestrial ecosystems, severely impacting Australia’s unique biodiversity. 
-
-The fires burnt an estimated 24.3 million hectares and destroyed over 3,000 buildings, and killed at least 34 people. 
-
-It was claimed that three billion terrestrial vertebrates – the vast majority being reptiles – were affected and some endangered species were believed to be driven to extinction. 
-
-The economic costs of dealing with the bushfires was expected to exceed the A$4.4 billion of the 2009 Black Saturday fires, and tourism sector revenues fell by more than A$1 billion. 
-
-Economists estimated the bushfires – Australia's costliest natural disaster in history – may have cost over A$78–88 billion in property damage and economic losses. 
-
-[Slide: B-roll aerial of plumes & South Pacific]
-
-Australia’s bushfires impacted our South Pacific neighbors
-
-Smoke had been moving upwards of 11,000 kilometres (6,800 mi) across the South Pacific Ocean, impacting weather conditions in other continents. 
-
-We know from satellite data that the carbon emissions from these bushfires were estimated to be around 715 million tons, surpassing Australia's normal annual bushfire and fossil fuel emissions by around 80%.
-
+A massive fire characterised by its unusual intensity, size, duration, and uncontrollable dimension, was considered a megafire. 
 
 What we did
 
-Using open methods and open data, we examined HOW to better monitor and evaluate the impacts of natural disasters on our terrestrial ecosystems and biodiversity.
+Using open methods and open data, we examined how to better monitor and evaluate the impacts of natural disasters on our terrestrial ecosystems and biodiversity. We performed exploratory data analysis using data from the Digital Atlas of Australia and Atlas of Living Australia. 
 
-We performed exploratory data analysis using data from the Digital Atlas of Australia and Atlas of Living Australia. 
+By monitoring, measuring and evaluating biodiversity and natural habitats, we can reduce losses, ensure conservation, and protect genetic resources and more fairly share in the benefits of our terrestrial and ocean ecosystems. 
 
 We looked at multiple fauna species and used Clarke & Warwick’s taxonomic distinctness index for biological community data. 
 
-This index defines two biodiversity indices, capturing the structure not only of the distribution of species and the taxonomic relatedness of each sample. 
+This index defines two biodiversity indices, capturing the structure not only of the distribution of species but also the taxonomic relatedness of each sample, giving us a richer image of the ecological landscape in a region.
 
-For each bioregion, our team of data scientists leveraged open data and R, one of the most widely used open source programming languages for data mining and statistical analysis. 
+For each bioregion, our team leveraged open data and R, one of the most widely used open-source programming languages for statistical data analysis. 
 
-We leveraged multivariate geospatial data, animal observations and bushfire event data.
+[Slide: Data types:  multivariate geospatial data, animal observations and bushfire event data.]
 
 Using existing disaster indices, we performed a biodiversity analysis and produced visual plots using Python, R and MapBox. 
 
-Our biodiversity analysis can be used in combination with other metrics to monitor, measure and evaluate the impact of natural disasters. 
- Our tool is adaptive, and can be used in conjunction with existing biodiversity and disaster data. 
+[SLIDE: Disaster & diversity hex logo + text]
 
+[Slide: Open R package for exploring the impact of major disasters on ecological landscapes and biodiversity]
 
-Accurate & up to date open data & multi-stakeholder collaboration are essential 
+Our data pipeline package, “Disaster & Diversity”, calculates the ecological impact of natural disasters using biodiversity indices and the monetary costs of disasters. 
+
+Our package can be used in combination with other metrics to monitor, measure and evaluate the impact of natural disasters. 
+
+Our deliverable is an R package and includes a collection of functions to perform tasks including to:
+
+- [x] Locate area from natural disaster open data. 
+- [x] Extract the respective shape files. 
+- [x] Query species from the Atlas of Living Australia.
+- [x] Compute biodiversity indices, and 
+- [x] Create visual plots using geospatial multivariate data.
+
+Our functions can be called and used in other R scripts. Our packages include all the datasets we used. We have included documentation with information on how to use the functions and datasets. 
+
+A core objective of Open Source Software is reuse. We associated the MIT open license with our R package. 
+
+In doing so, we have achieved the objective of leveraging the work of others who came before us in the fields of biodiversity and disaster management. 
+
+Through this project, we performed applied research on ecosystem resilience.
+
+Accurate and up-to-date open data & multi-stakeholder collaboration are essential 
 
 With the increasing frequency & scale of natural disasters, understanding, monitoring and evaluating these transnational events  require access to open data, open source platforms, and collaboration with multi-disciplinary teams.  
 
 Open data is often made available as a public good. 
 
-For example, GPS data are sourced from the US Government; weather data from the Himawari satellite system operated by the Japanese government. 
+[Slide - logos for ALA & Global Bio Info, FAIR data standards]
 
-The Atlas of Living Australia’s open data was central to our project. 
+The Atlas of Living Australia’s open data was central to our project. This open data atlas is an excellent example of collaborative, digital, open infrastructure.  It pulls together Australian biodiversity data from multiple sources, making it accessible and reusable. 
 
-It is a collaborative, digital, open infrastructure that pulls together Australian biodiversity data from multiple sources, making it accessible and reusable.
+The Atlas of Living Australia  is the Australian node of the Global Biodiversity Information Facility – an international network and data infrastructure.
 
-The Atlas of Living Australia or ALA is the Australian node of the Global Biodiversity Information Facility – an international network and data infrastructure, 
+It is a network funded by the world’s governments and aimed at providing anyone, anywhere, open access to data about all types of life on Earth. 
 
-The ALA is funded by the world’s governments and aimed at providing anyone, anywhere, open access to data about all types of life on Earth. 
-
-The ALA uses the Darwin Core set of standards to mobilise and deliver biodiversity data. 
+The ALA uses the Darwin Core set of standards to mobilise and deliver biodiversity data.
 
 Darwin Core is the internationally agreed data standard to facilitate the sharing of information about biological diversity.
 
-Using co-design and co-development approach, our team created a tool to support monitoring, evaluating and evidence informed approaches to improved ecosystem resilience in the face of compounding and prolonged disasters. 
+It confirms to the FAIR data exchange principles.
 
+In closing,
 
-CONCLUSION
+[Slide - Team photo + healthy ecosystems]
 
-[Slide - Team Awesome Possums]
+Our five-member Australian-based team of ECRs, hailing from four countries, produced tangible deliverables during the 3-day  Datathon. 
 
-To have any hope of achieving the 2030 Agenda, we must improve our capacity to measure the impacts of natural disasters on biodiversity. 
+During this 2023 Datathon, we addressed SDG 15.5 by looking  looked at biodiversity loss in the aftermath of natural disasters. 
 
-Our Australian-based team of five PhD students & ECRs, hailing from four countries, produced tangible deliverables during the 3-day 2023 UN Datathon. 
+We showed that multidisciplinary collaborations are essential to conservation and sustainable ecosystems and biodiversity in Australia and beyond. 
 
-Using open source software and open data, we produced a quantitative analysis to compute impacts on biodiversity due to natural hazards. 
+Our team conducted analysis to calculate biodiversity indices that support monitoring & evaluation of bio regions & disaster impacts. 
 
-Our project adds to the formable body of applied research dedicated to conserving and restoring terrestrial and freshwater ecosystems, reducing deforestation, and restoring degraded land.
+[Slide - B  roll koalas] 
 
+Australians want to see their nation rebuilt in a way that treasures and protects our unique wildlife. 
 
-[Slide: B-roll healthy terrestrial & aquatic ecosystems]
+By monitoring, measuring and evaluating biodiversity and natural habitats, we can reduce losses, ensure conservation, and protect genetic resources and more fairly share in the benefits of our terrestrial and ocean ecosystems. 
 
-High quality, data-driven research supports policies and legislation for ecosystem and biodiversity preservation. 
+[Slide - logos UN, ASDN, institutions - QUT CDS, Uni Sydney, Monash, University Melb]
 
-Australians want to see their nation rebuilt in a way that treasures and protects our unique wildlife. And like our Pacific neighbors, we want to conserve and sustainably use our land resources for sustainable development
+Collaborative, multidisciplinary data-driven projects are only possible through the passion, commitment and financial backing of multilateral organizations such as the United Nations, event sponsors & the Australian Data Science Network. Thank you.
 
-By monitoring, measuring and evaluating biodiversity and natural habitats we can reduce losses, ensure conservation, and protect genetic resources and more fairly share in the benefits of our terrestrial and ocean ecosystems. 
-
-Our 2023 UN Datathon deliverables demonstrates that multidisciplinary collaborations are essential to conservation and sustainable ecosystem and biodiversity in Australia and beyond. 
-
-Together, we’re working to support the economic, social & environmental benefit of present & future generations. 
+Together, we’re working to support economic, social & environmental benefits for present & future generations. 
