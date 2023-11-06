@@ -7,6 +7,7 @@ reference:
   contents:
   - disaster_as_shape
   - query_species
+  - split_time
   - calculate_idx
   - autoplot
 - title: Built-in data

@@ -37,12 +37,20 @@ autoplot <- function(data, time = NULL, site = NULL){
   if (!is.null(time)){
     data <- data |>
       tidyr::pivot_longer(
-        cols = -dplyr::all_of(time), names_to = "idx", values_to = "value"
+        cols = -c(time, site), names_to = "idx", values_to = "value"
         )
   }
 
-  data |>
-    ggplot2::ggplot(ggplot2::aes(x = !!time, y = value, group = idx)) +
+  if (!is.null(site)){
+    p <- data |>
+      ggplot2::ggplot(ggplot2::aes(x = !!time, y = value,
+                                   group = interaction(idx, !!site)))
+  } else{
+    p <- data |>
+      ggplot2::ggplot(ggplot2::aes(x = !!time, y = value, group = idx))
+  }
+
+  p +
     ggplot2::geom_line() +
     ggplot2::facet_wrap(ggplot2::vars(idx), ncol = 1, scales = "free")
 }
