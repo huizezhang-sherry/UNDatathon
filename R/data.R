@@ -20,4 +20,20 @@
 #' @rdname disaster-postcode
 "disaster"
 
+#' A testing data queried from the Atlas of Living Australia
+#'
+#' This dataset contains the occurrence and taxonomy data used in ...
+#'
+#' @details
+#' \describe{
+#'   \item{column name}{description}
+#'   \item{column name}{description}
+#'   \item{column name}{description}
+#'   \item{column name}{description}
+#'   \item{column name}{description}
+#'   \item{column name}{description}
+#' }
+#' @rdname disaster-postcode
+"test-ala"
+
 

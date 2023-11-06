@@ -18,9 +18,9 @@
 #' library(sf)
 #' d <- disaster |> filter(cat_name == "CAT131") |> disaster_as_shape()
 #' s <- query_species(d[1,])
-#' s |> calculate_indexes()
+#' s |> calculate_idx()
 #' }
-calculate_indexes <- function(data = NULL, occurrence = NULL, taxonomy = NULL,
+calculate_idx <- function(data = NULL, occurrence = NULL, taxonomy = NULL,
                               is_count = FALSE,
                               indexes = c("shannon", "simpson", "CW")){
 
@@ -91,6 +91,7 @@ calculate_indexes <- function(data = NULL, occurrence = NULL, taxonomy = NULL,
       dplyr::mutate(cw_diversity = cw_res$D, cw_distinctness = cw_res$Dstar)
   }
 
+  class(res) <- c("idx_res", class(res))
   return(res)
 
 }

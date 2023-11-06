@@ -104,5 +104,3 @@ res |>
   geom_line() +
   facet_wrap(vars(idx), ncol = 1, scales = "free")
 
-
-

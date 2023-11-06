@@ -1,7 +1,7 @@
 # calculate_indexes() works
 
     Code
-      calculate_indexes(s)
+      calculate_idx(s)
     Output
       # A tibble: 1 x 4
         shannon simpson cw_diversity cw_distinctness
@@ -11,7 +11,7 @@
 ---
 
     Code
-      calculate_indexes(s, index = c("shannon", "simpson"))
+      calculate_idx(s, index = c("shannon", "simpson"))
     Output
       # A tibble: 1 x 2
         shannon simpson
@@ -21,24 +21,24 @@
 ---
 
     Code
-      calculate_indexes(data = s$occurrence)
+      calculate_idx(data = s$occurrence)
     Condition
-      Error in `calculate_indexes()`:
+      Error in `calculate_idx()`:
       ! The `data` argument only accepts results of a galah_res object from `query_species()`. You can input separate occurrence and species data with `occurrence = ` and `taxonomy = `.
 
 ---
 
     Code
-      calculate_indexes(occurrence = s$occurrence)
+      calculate_idx(occurrence = s$occurrence)
     Condition
-      Error in `calculate_indexes()`:
+      Error in `calculate_idx()`:
       ! Taxonomic information is required for CW index. Please supply it with argument `taxonomy = `
 
 ---
 
     Code
-      calculate_indexes(taxonomy = s$taxonomy)
+      calculate_idx(taxonomy = s$taxonomy)
     Condition
-      Error in `calculate_indexes()`:
+      Error in `calculate_idx()`:
       ! Please input a galah_res object or occurrence data to compute the indexes.
 

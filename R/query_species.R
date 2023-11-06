@@ -26,10 +26,14 @@ query_species <- function(shape, year_vec = c(2019, 2020)){
     "Please set the configuration with {.code galah_config(email = )}.")
   }
 
-  res_occur <- galah_call() |>
+  res_occur_raw <- galah_call() |>
     galah::galah_filter(year == year_vec ) |>
     galah::galah_polygon(shape) |>
     galah::atlas_occurrences()
+
+  res_occur <- res_occur_raw |>
+    dplyr::arrange(eventDate) |>
+    dplyr::filter(!is.na(eventDate))
 
   res_taxonomy_raw <- galah_call() |>
     galah::galah_filter(year == year_vec ) |>

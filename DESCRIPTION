@@ -16,6 +16,8 @@ Imports:
     cli,
     dplyr,
     galah,
+    ggplot2,
+    rlang,
     sf,
     tibble,
     tidyr,

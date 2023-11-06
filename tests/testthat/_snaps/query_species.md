@@ -9,20 +9,20 @@
       Checking queue
       Current queue size: 1 inqueue  running 
       $occurrence
-      # A tibble: 5,421 x 8
-         decimalLatitude decimalLongitude eventDate           scientificName         
-                   <dbl>            <dbl> <dttm>              <chr>                  
-       1           -42.9             147. 2019-08-03 00:00:00 Litoria ewingii        
-       2           -42.9             147. 2019-08-03 00:00:00 Crinia signifera       
-       3           -42.9             147. 2019-08-05 00:00:00 Crinia signifera       
-       4           -42.9             147. 2019-08-05 00:00:00 Crinia signifera       
-       5           -42.9             147. 2020-12-24 09:04:59 Epacris serpyllifolia  
-       6           -42.9             147. 2020-12-25 09:57:59 Nothofagus cunninghamii
-       7           -42.9             147. 2020-12-24 08:15:00 Telopea truncata       
-       8           -42.9             147. 2020-12-24 08:15:00 Richea pandanifolia    
-       9           -42.9             147. 2020-12-24 08:15:00 Bauera rubioides       
-      10           -42.9             147. 2020-12-24 08:22:00 Drosera arcturi        
-      # i 5,411 more rows
+      # A tibble: 5,419 x 8
+         decimalLatitude decimalLongitude eventDate           scientificName          
+                   <dbl>            <dbl> <dttm>              <chr>                   
+       1           -42.7             147. 2019-01-01 16:00:00 Strepera (Strepera) ful~
+       2           -42.7             147. 2019-01-01 16:00:00 Anthochaera (Anthochaer~
+       3           -42.7             147. 2019-01-01 16:00:00 Cacatua (Cacatua) galer~
+       4           -42.7             147. 2019-01-01 16:00:00 Zanda funerea           
+       5           -42.7             147. 2019-01-01 16:00:00 Nesoptilotis flavicollis
+       6           -42.7             147. 2019-01-01 16:00:00 Phylidonyris (Phylidony~
+       7           -42.1             146. 2019-01-02 08:00:00 Corvus tasmanicus       
+       8           -42.1             146. 2019-01-02 08:00:00 Strepera (Strepera) ful~
+       9           -42.1             146. 2019-01-02 08:00:00 Anthochaera (Anthochaer~
+      10           -42.1             146. 2019-01-02 08:00:00 Phylidonyris (Phylidony~
+      # i 5,409 more rows
       # i 4 more variables: taxonConceptID <chr>, recordID <chr>,
       #   dataResourceName <chr>, occurrenceStatus <chr>
       
