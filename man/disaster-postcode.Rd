@@ -3,15 +3,22 @@
 \docType{data}
 \name{disaster}
 \alias{disaster}
+\alias{test_ala}
 \title{Disaster and postcode data}
 \format{
 An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 6161 rows and 24 columns.
+
+An object of class \code{galah_res} (inherits from \code{list}) of length 2.
 }
 \usage{
 disaster
+
+test_ala
 }
 \description{
 This dataset contains the postcode and disaster data used in ...
+
+This dataset contains the occurrence and taxonomy data used in ...
 }
 \details{
 Disaster data comes from \link{organisation name}
@@ -19,6 +26,15 @@ Disaster data comes from \link{organisation name}
 without postcode information is removed.
 
 The postcode data comes from ABS ...
+
+\describe{
+\item{column name}{description}
+\item{column name}{description}
+\item{column name}{description}
+\item{column name}{description}
+\item{column name}{description}
+\item{column name}{description}
+}
 
 \describe{
 \item{column name}{description}

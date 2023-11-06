@@ -37,7 +37,7 @@ autoplot <- function(data, time = NULL, site = NULL){
   if (!is.null(time)){
     data <- data |>
       tidyr::pivot_longer(
-        cols = -all_of(time), names_to = "idx", values_to = "value"
+        cols = -dplyr::all_of(time), names_to = "idx", values_to = "value"
         )
   }
 
@@ -46,3 +46,5 @@ autoplot <- function(data, time = NULL, site = NULL){
     ggplot2::geom_line() +
     ggplot2::facet_wrap(ggplot2::vars(idx), ncol = 1, scales = "free")
 }
+
+globalVariables(c("value", "idx", ""))

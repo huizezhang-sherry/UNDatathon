@@ -34,6 +34,6 @@
 #'   \item{column name}{description}
 #' }
 #' @rdname disaster-postcode
-"test-ala"
+"test_ala"
 
 

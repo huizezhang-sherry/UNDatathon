@@ -23,5 +23,8 @@ Imports:
     tidyr,
     vegan
 Suggests: 
-    testthat (>= 3.0.0)
+    purrr,
+    testthat (>= 3.0.0),
+    tsibble,
+    vdiffr
 Config/testthat/edition: 3

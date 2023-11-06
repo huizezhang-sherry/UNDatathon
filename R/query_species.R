@@ -53,4 +53,4 @@ query_species <- function(shape, year_vec = c(2019, 2020)){
 }
 
 globalVariables(c("class", "order", "genus", "family", "galah_call",
-                  "species", "year", "postcode_2021"))
+                  "species", "year", "postcode_2021", "eventDate"))
